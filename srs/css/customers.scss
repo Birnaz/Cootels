@@ -1,0 +1,44 @@
+.customers{
+  padding: 80px 0 324px;
+  display: flex;
+
+  text-align: center;
+  position: relative;
+  &__arrow_prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  &__arrow_next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  &__info-img{
+    //display: flex !important;
+    //justify-content: center !important;
+    //height: 120px !important;
+    //width: 120px !important;
+  }
+  &__title{
+    margin-bottom: 62px;
+  }
+  &__info{
+
+
+   &-text{
+     text-align: center;
+     margin: 44px 0 40px;
+   }
+    &-name{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      text-align: center;
+      color: #192252;
+    }
+
+  }
+}

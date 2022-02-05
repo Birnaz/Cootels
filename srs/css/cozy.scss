@@ -1,0 +1,26 @@
+.cozy{
+  padding: 80px 0 120px;
+  &__row{
+      display: flex;
+    justify-content: space-between;
+  }
+  &__image{
+    width: 384px;
+    height: 576px;
+  }
+  &__right{
+    width: 690px;
+    height: 366px;
+    padding: 105px 0;
+  }
+  &__firth-text{
+    padding: 24px 0 16px;
+  }
+  &__second-text{
+    padding-bottom: 32px;
+  }
+  &__btn{
+    width: 151px;
+    height: 51px;
+  }
+}

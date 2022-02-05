@@ -1,0 +1,28 @@
+.cabin {
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    &-firth{
+      display: flex;
+      justify-content: space-between;
+      row-gap: 126px;
+      width: 1094px;
+      height: 384px;
+      &-info{
+        padding: 93px 15px 144px;
+      }
+    }
+    &-second{
+      display: flex;
+      justify-content: space-between;
+      row-gap: 126px;
+      width: 1094px;
+      height: 384px;
+      &-info{
+        padding: 93px 15px 144px;
+      }
+    }
+  }
+}

@@ -1,0 +1,540 @@
+@media (max-width: 1200px){
+  .header__title{
+    font-size: 26px;
+  }
+  .header__left{
+    column-gap: 230px;
+  }
+  .container {
+    max-width: 900px;
+    .burger{
+      display: none;
+    }
+    .nature__title {
+      font-size: 31px;
+      margin-top: 35px;
+    }
+    .room__card-img {
+      width: 300px;
+    }
+
+    .text{
+      font-size: 14px;
+    }
+    .title{
+      font-size: 28px;
+    }
+    .header__btn {
+      width: 108px;
+      height: 36px;
+    }
+    .button{
+      font-size: 13px
+    }
+    .nature__btn {
+      width: 108px;
+      height: 39px;
+      margin-top: 23px;
+    }
+    .nature__right {
+      display: flex;
+      column-gap: 9px;
+    }
+    .cozy__right {
+      width: 690px;
+      height: 366px;
+      padding: 64px 25px;
+    }
+    .cozy__btn {
+      width: 112px;
+      height: 38px;
+    }
+    .cozy__image {
+      width: 355px;
+      height: 470px;
+    }
+    .cabin__row-firth-info {
+      padding: 67px 50px 175px;
+    }
+    .cabin__row-second-info {
+      padding: 78px 48px 177px;
+    }
+    .cabin__img{
+      width: 300px;
+      height: 300px;
+    }
+    .cabin__row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .cabin__row-firth{
+      height: 300px;
+    }
+    .room__info-btn {
+      width: 128px;
+      height: 36px;
+      margin-bottom: 54px;
+    }
+    .room__card-img {
+      width: 280px;
+    }
+    .room__card-text{
+      font-size: 13px;
+    }
+    .room {
+      padding: 35px 0 28px;
+    }
+    .start__content-btns{
+      width: 120px;
+      height: 42px;
+    }
+    .start__content-button {
+      width: 157px;
+      height: 30px;
+      font-size: 14px;
+      line-height: 12px;
+    }
+    .footer__navbar{
+      column-gap: 178px;
+    }
+    .footer__list-link {
+      font-size: 14px;
+    }
+    .footer__navbar-text {
+      margin: 10px 0 28px;
+      font-size: 14px;
+    }
+    .footer__navbar-icon {
+      column-gap: 28px;
+      svg{
+        width: 26px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px){
+  .container {
+    max-width: 760px;
+    .burger{
+      display: none;
+    }
+    .header__left {
+      column-gap: 122px;
+    }
+    .nature__right {
+      display: flex;
+      column-gap: 5px;
+      img{
+        width: 160px;
+        height: 560px;
+      }
+    }
+    .nature__title {
+      font-size: 26px;
+      margin-top: 89px;
+    }
+    .text {
+      font-size: 12px;
+    }
+    .nature__btn {
+      width: 95px;
+      height: 35px;
+      margin-top: 18px;
+    }
+    .cozy {
+      padding: 20px 0 60px;
+    }
+    .cozy__image {
+      width: 325px;
+      height: 410px;
+    }
+    .title {
+      font-size: 23px;
+    }
+    .cozy__btn {
+      width: 100px;
+      height: 32px;
+    }
+    .cozy__firth-text {
+      padding: 17px 0 16px;
+    }
+    .cozy__second-text {
+      padding-bottom: 20px;
+    }
+    .cabin__img {
+      width: 250px;
+      height: 250px;
+    }
+    .cabin__row-firth-info {
+      padding: 52px 62px 145px;
+    }
+    .room {
+      padding: 10px 0 40px;
+    }
+    .container .room__card-img {
+      width: 225px;
+    }
+    .room__card-link{
+      font-size: 13px;
+    }
+    .start {
+      padding: 35px 0 50px;
+    }
+    .start__content {
+      row-gap: 30px;
+    }
+    .footer {
+      padding: 70px 0 60px;
+    }
+    .footer__navbar {
+      column-gap: 122px;
+    }
+    .footer__list-link {
+      font-size: 12px;
+    }
+    .footer__navbar-title{
+      font-size: 26px;
+    }
+    .footer__navbar-text {
+      margin: 8px 0 20px;
+      font-size: 13px;
+    }
+    .footer__navbar-icon{
+      svg{
+        width: 22px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 560px;
+    .header{
+      &__list{
+        display: none;
+      }
+      &__list.active{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+        width: 50%;
+        height: 50vh;
+        top: 0;
+        right: 0;
+        background-color: white;
+      }
+      &__right{
+        padding-right: 30px;
+      }
+      &__title {
+        font-size: 24px;
+      }
+      &__btn {
+        width: 85px;
+        height: 28px;
+      }
+    }
+    .button {
+      font-size: 10px;
+    }
+    .burger {
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: fixed;
+      right: 20px;
+      top: 16px;
+      &__line{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background: #000;
+        width: 100%;
+        height: 2px;
+        &::before, &:after{
+          position: absolute;
+          content: '';
+          background: #000;
+          width: 100%;
+          height: 2px;
+          top: -9px;
+          left: 0;
+        }
+        &::after{
+          top: 9px;
+        }
+      }
+    }
+    .burger.active{
+      .burger__line{
+        background-color: transparent;
+        &::before{
+          top: 0;
+          transform: rotate(-45deg);
+        }
+        &::after{
+          top: 0;
+          transform: rotate(45deg);
+        }
+      }
+    }
+    .nature {
+      padding: 30px 0 30px;
+    }
+    .nature__right img {
+      width: 106px;
+      height: 398px;
+    }
+    .nature__right-center {
+      margin-top: 58px;
+    }
+    .nature__title {
+      font-size: 18px;
+      margin-top: 80px;
+    }
+    .text {
+      font-size: 10px;
+    }
+    .nature__left {
+      padding-right: 10px;
+    }
+    .nature__btn {
+      width: 76px;
+      height: 28px;
+      margin-top: 16px;
+    }
+    .cozy {
+      padding: 40px 0 40px;
+    }
+    .cozy__image {
+      width: 250px;
+      height: 330px;
+    }
+    .cozy__right {
+      padding: 24px 18px;
+    }
+    .title {
+      font-size: 17px;
+    }
+    .cozy__btn {
+      width: 72px;
+      height: 25px;
+    }
+    .cabin__img {
+      width: 190px;
+      height: 186px;
+    }
+    .cabin__row {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 4px;
+    }
+    .cabin__row-firth {
+      height: 210px;
+    }
+    .cabin__row-firth-info {
+      padding: 18px 28px 69px;
+    }
+    .cabin__row-second-info {
+      padding: 18px 24px 254px;
+    }
+    .cabin__row-second{
+      height: 165px;
+    }
+    .room__info-text {
+      text-align: center;
+      margin: 16px 0 20px;
+    }
+    .room__info-btn {
+      width: 86px;
+      height: 26px;
+      margin-bottom: 40px;
+    }
+    .room__card-img {
+      width: 160px;
+    }
+    .room__card-title {
+      font-size: 14px;
+      margin: 18px 0 12px;
+    }
+    .room__card-text {
+      font-size: 10px;
+      margin-bottom: 14px;
+    }
+    .room__card-link {
+      font-size: 12px;
+      svg{
+        width: 14px;
+        height: 10px;
+      }
+    }
+    .start {
+      padding: 22px 0 30px;
+    }
+    .start__content-btns {
+      width: 73px;
+      height: 27px;
+    }
+    .start__content-button {
+      width: 135px;
+      height: 26px;
+      font-size: 12px;
+      line-height: 9px;
+    }
+    .start__right-tab-label {
+      margin-bottom: 16px;
+    }
+    // .footer{
+    //  padding: 56px 0 56px;
+    //}
+    .footer__navbar {
+      column-gap: 60px;
+    }
+    .footer__navbar-title {
+      font-size: 20px;
+    }
+    .footer__navbar-icon {
+      column-gap: 17px;
+    }
+    .footer__navbar-right {
+      margin-top: 18px;
+      column-gap: 55px;
+    }
+    .footer__list-item {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 566px){
+  .header {
+    padding: 22px;
+  }
+  .nature {
+    padding: 20px 0 20px;
+  }
+  .cozy {
+    padding: 20px 0 30px;
+  }
+  .room {
+    padding: 40px 0 40px;
+  }
+  .start {
+    padding: 20px 0 30px;
+  }
+  .customers{
+    padding: 40px 0 40px;
+  }
+  .footer{
+    padding: 40px 0 40px;
+  }
+  .container{
+    max-width: 366px;
+    .button {
+      font-size: 8px;
+    }
+    .nature__row{
+      display: flex;
+      flex-direction: column;
+    }
+    .nature__left {
+      width: 238px;
+      height: 280px;
+      margin-left: 40px;
+    }
+    .cozy__image {
+      width: 144px;
+      height: 212px;
+    }
+    .cozy__right {
+      padding: 0 10px;
+    }
+    .title {
+      font-size: 10px;
+    }
+    .text {
+      font-size: 8px;
+    }
+    .cozy__btn {
+      width: 60px;
+      height: 22px;
+    }
+    .cozy__right {
+      width: 661px;
+      height: 226px;
+    }
+    .cabin__img {
+      width: 150px;
+      height: 150px;
+    }
+    .cabin__row-firth {
+      height: 160px;
+    }
+    .room__card-img {
+      width: 98px;
+    }
+    .room__info-btn {
+      width: 65px;
+      height: 22px;
+      margin-bottom: 20px;
+    }
+    .room__card-text {
+      font-size: 7px;
+      margin-bottom: 5px;
+    }
+    .room__card-title {
+      font-size: 10px;
+      margin: 10px 0 6px;
+    }
+    .start__content-btns {
+      width: 60px;
+      height: 23px;
+    }
+    .start__content-button {
+      width: 100px;
+      height: 1px;
+      font-size: 10px;
+      line-height: 1px;
+    }
+    .customers__info-name{
+      font-size: 14px;
+    }
+    .footer__navbar{
+      column-gap: 25px;
+    }
+    .footer__navbar-title {
+      font-size: 15px;
+    }
+    .footer__navbar-text{
+      margin: 6px 0 12px;
+      font-size: 9px;
+    }
+
+    .footer__navbar-icon {
+      column-gap: 5px;
+    }
+    .footer__navbar-icon svg {
+      width: 15px;
+      height: 12px;
+    }
+    .footer__navbar-right {
+      margin-top: 15px;
+      column-gap: 18px;
+    }
+    .footer__list-link {
+      font-size: 9px;
+    }
+    .footer__list-item {
+      margin-bottom: 4px;
+    }
+  }
+}
+

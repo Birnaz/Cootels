@@ -1,0 +1,48 @@
+.footer{
+  background: #0B265A;
+  padding: 120px 0 133px;
+  color: #FFFFFF;
+  &__navbar{
+    display: flex !important;
+    column-gap: 400px;
+    &-title{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 39px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+    }
+    &-text{
+      margin: 13px 0 36px;
+      font-family: Inter, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+      color: #D9DBDE;
+    }
+    &-icon{
+      display: flex;
+      column-gap: 35px;
+    }
+    &-right{
+      display: flex;
+      column-gap: 110px;
+    }
+  }
+  &__list {
+    &-item{
+      margin-bottom: 24px;
+    }
+    &-link{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #d9dbde;
+    }
+  }
+}
+
+

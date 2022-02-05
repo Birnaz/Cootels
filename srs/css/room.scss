@@ -1,0 +1,53 @@
+.room{
+  padding: 88px 0 80px;
+  &__info{
+    text-align: center;
+    &-text{
+      text-align: center;
+      margin: 24px 0 32px;
+    }
+    &-btn{
+      width: 165px;
+      height: 51px;
+      margin-bottom: 88px;
+    }
+  }
+  &__card{
+    display: flex;
+    column-gap: 20px;
+    &-title{
+      margin: 32px 0 16px;
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: left;
+      color: #000000;
+    }
+    &-text{
+      font-family: Inter, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 150%;
+      color: #848FAC;
+      margin-bottom: 32px;
+    }
+    &-link{
+      font-family: Inter, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 150%;
+      color: #424F7B;
+      cursor: pointer;
+      transition: .3s;
+      &:hover{
+        color: red;
+        transition: .3s;
+        font-weight: bold;
+      }
+    }
+  }
+}
